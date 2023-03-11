@@ -12,7 +12,7 @@ export default function section2() {
   if (isError) return <Error />;
 
   return (
-    <section className="container mx-auto md:px-20 py-10">
+    <section className="container mx-auto lg:px-20 py-10">
       <h1 className="text-4xl font-bold py-12 text-center">Latest Posts</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         {data.map((value, index) => (

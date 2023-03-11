@@ -58,7 +58,7 @@ function Post({ data }) {
         </div>
         <div className="title">
           <Link href={`/posts/${id}`}>
-            <span className="text-2xl md:text-3xl font-bold text-gray-800 hover:text-gray-600">
+            <span className="text-xl md:text-2xl font-bold text-gray-800 hover:text-gray-600">
               {title || "title"}
             </span>
           </Link>
